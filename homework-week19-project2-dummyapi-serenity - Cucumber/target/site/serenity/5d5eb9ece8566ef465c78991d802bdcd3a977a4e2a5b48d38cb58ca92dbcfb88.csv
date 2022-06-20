@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Employee CURD test with steps","This will create a new employee","SUCCESS","2022-06-06T12:58:01.858+01:00[Europe/London]","0.0","7.49"
+"Employee CURD test with steps","Verify if the employee was added to the list","FAILURE","2022-06-06T12:58:09.377+01:00[Europe/London]","0.0","1.14"
+"Employee CURD test with steps","Update the employee information and verify updated information","FAILURE","2022-06-06T12:58:10.619+01:00[Europe/London]","0.0","1.61"
+"Employee CURD test with steps","Delete the product and verify if the product is deleted!","FAILURE","2022-06-06T12:58:12.231+01:00[Europe/London]","0.0","0.78"

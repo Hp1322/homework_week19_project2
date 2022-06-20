@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing different request on the employee" skipped="0" tests="5" time="16.06" timestamp="2022-06-20T10:52:16.399+01:00[Europe/London]"><testcase name="I get all employees from application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.cucumber.steps.EmployeeStepdefs.iMustGetBackAValidStatusCodeOfEmployee(EmployeeStepdefs.java:47)&#13;
+✽.Then I must get back a valid status code 200 of employee(employee.feature:6)&#13;
+</system-err></testcase><testcase name="I create employee from application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.cucumber.steps.EmployeeStepdefs.iSendPostRequestToListEndpointOfEmployee(EmployeeStepdefs.java:54)&#13;
+✽.When I send Post request to list endpoint of employee(employee.feature:10)&#13;
+</system-err></testcase><testcase name="I update employee from application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.dummyapiinfo.EmployeeSteps.getEmployeeMapInfoByID(EmployeeSteps.java:35)&#13;
+com.restapiexample.dummy.cucumber.steps.EmployeeStepdefs.iSendPutRequestToListEndpointOfEmployee(EmployeeStepdefs.java:63)&#13;
+✽.When I send Put request to list endpoint of employee(employee.feature:15)&#13;
+</system-err></testcase><testcase name="I delete employee from application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.cucumber.steps.EmployeeStepdefs.iSendDeleteRequestToListEndpointOfEmployee(EmployeeStepdefs.java:70)&#13;
+✽.When I send Delete request to list endpoint of employee(employee.feature:20)&#13;
+</system-err></testcase><testcase name="I verify following data response"/></testsuite>
